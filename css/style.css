@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+/* Common css end */
+
+/* Nav part start */
+.main_manu {
+    background: #FFE165;
+}
+
+.main_manu a.navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.main_manu ul li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.main_manu ul li a:hover{
+    color:#fff;
+}
+/* Nav part end */
+/* Banner part start */
+#banner_part {
+    background: #FFE165;
+    padding: 30px 0;
+}
+.banner_text{
+    margin-top:60px;
+}
+.banner_text span {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+.banner_text h1 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin:10px 0 20px;
+    line-height: 60px;
+}
+
+.banner_text a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+    border-radius: 22px;
+    background: #fff;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+/* Banner part end */
+
+/* About part start */
+#about_part{
+    padding:30px 0;
+}
+.about_text h3{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom:10px;
+}
+.about_text p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-right: 310px;
+}
+/* About part end */
+/* Download part start */
+#download{
+    padding:30px 0;
+    background: #FFE165;
+}
+.download_text h4{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+/* Download part end */
+
+/* Service part start */
+#service_part{
+    padding: 100px 0;
+}
+#service_part h3{
+    color:#000;
+    font-size:30px ;
+    font-weight:600 ;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom:40px;
+    text-transform: capitalize;
+}
+.service_text_inner{
+    background: #FFE165;
+    padding:10px;
+}
+.service_text_inner h4{
+    color:#000;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+/* Service part end */
+
+/* Image part start */
+#image_part{
+    padding-bottom:100px;
+}
+.image_col ul li{
+    width: 23.86% !important;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.image_col ul li img{
+    width: 100%;
+}
+.image_col ul li:nth-child(4n+4),.image_col ul li:nth-child(8n+8){
+    margin-right: 0;
+}
+.image_col h3{
+    color:#000;
+    font-size:30px ;
+    font-weight:600 ;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom:40px;
+    text-transform: capitalize;
+}
+
+/* Image part end */
+/* Discount part start */
+#discount_part{
+    padding:30px;
+    background: #FFE165;
+}
+.discount_text span{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.discount_text h3{
+    color:#fff;
+    font-size:30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.discount_botton a{
+    color:#000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 30px;
+    margin-top:10px;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+} 
+/* Discount part end */
+
+/* footer part start */
+#footer_part{
+    padding:50px 0;
+}
+.footer_text h3{
+    color:#000;
+    font-size:30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.quality_part{
+    position: relative;
+}
+.quality_part h3{
+    color:#FFE165;
+    font-size:40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.quality_part p{
+    color:#000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* footer part end */
+/* back to top */
+.back-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    background: #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* sticky mani*/
+.menu-fix{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+/* active  */
+.main_manu ul li a.active{
+    color:#fff;
+}

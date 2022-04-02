@@ -1,0 +1,142 @@
+@media (min-width:1400px){}
+@media (min-width:1200px) and (max-width:1399px){
+    .image_col ul li {
+        width: 22.99% !important;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .image_col ul li {
+        width: 22.86% !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .service_text {
+        margin-bottom: 20px;
+    }
+    .image_col ul li {
+        width: 21.99% !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+/* nav part start */
+.main_manu a.navbar-brand {
+    font-size: 35px;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}
+.main_manu ul{
+    text-align: center;
+}
+/* nav part end */
+/* banner part start */
+#banner_part {
+     padding: 0px 0;
+}
+.banner_text h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.banner_text {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+img {
+    width: 80%;
+}
+.banner_image {
+    margin-bottom: 30px;
+}
+/* banner part end */
+
+/* about part start */
+.about_text h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.about_text p {
+ padding-right:0px;
+}
+/* about part end */
+
+/* service part start */
+#service_part {
+    padding: 70px 0;
+}
+.service_text {
+    margin-bottom: 20px;
+}
+/* service part end */
+
+/* image part start */
+#image_part {
+    padding-bottom: 70px;
+}
+.image_col ul li {
+    width: 21.86% !important;
+}
+/* image part end */
+
+}
+@media (max-width:575px){
+    /* nav part start */
+    .main_manu a.navbar-brand {
+        font-size: 35px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0rem;
+    }
+    .main_manu ul{
+        text-align: center;
+    }
+    /* nav part end */
+    /* banner part start */
+    #banner_part {
+         padding: 0px 0;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_text {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    img {
+        width: 80%;
+    }
+    .banner_image {
+        margin-bottom: 30px;
+    }
+    /* banner part end */
+
+    /* about part start */
+    .about_text h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .about_text p {
+     padding-right:0px;
+    }
+    /* about part end */
+
+    /* service part start */
+    #service_part {
+        padding: 70px 0;
+    }
+    .service_text {
+        margin-bottom: 20px;
+    }
+    /* service part end */
+
+    /* image part start */
+    #image_part {
+        padding-bottom: 70px;
+    }
+    .image_col ul li {
+        width: 19.86% !important;
+    }
+    /* image part end */
+}
+
+
